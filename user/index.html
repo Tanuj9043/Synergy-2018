@@ -48,6 +48,11 @@
             font-family: 'Quicksand', sans-serif;
             font-weight: bold;
         }
+        .uinfo{
+            margin-top: 6rem;
+            margin-bottom: 6rem;
+            background-color: dodgerblue;
+        }
 
 		/*============================CONTACT US============================*/
 	    #contact{
@@ -167,7 +172,7 @@
             <div class="container-fluid">
                 <ul class="navbar-nav mainMenu float-left">
                     <li class="nav-item">
-                        <a class="nav-link" href="/sign" onclick="scrollto('addspeaker')">Trainer</a>
+                        <a class="nav-link" href="#trainer" onclick="scrollto('trainer')">Trainer</a>
                     </li>
 					<li class="nav-item">
                         <a class="nav-link" href="http://localhost:8080">Log Out</a>
@@ -178,13 +183,13 @@
     </nav>
 
     <!--============================USER============================-->
-    <div class="container-fluid mx-0 px-0 mt-5 mb-5 uinfo">
+    <div class="container-fluid mx-0 px-0 uinfo">
         <div class="container-fluid mt-2 pt-2 mb-2 pb-2 uimg text-center">
             <i class="fas fa-user"></i>
         </div>
         <div class="container-fluid mt-2 pt-2 mb-2 pb-2 uabout">
             <div class="container text-center">
-                <p class="mx-0 px-0 mt-2 mb-2 pt-2 pb-2 display-4 uname">DIPESH</p>
+                <p class="mx-0 px-0 mt-2 mb-2 pt-2 pb-2 display-4 uname">User</p>
             </div>
             <div class="container-fluid mt-2 mb-2 pt-2 pb-2">
                 <table class="table table-hover">
@@ -208,7 +213,7 @@
     </div>
 
     <!--============================TRAINER============================-->
-    <div class="container mt-5 mb-5 pt-3 pb-3">
+    <div class="container mt-5 mb-5 pt-3 pb-3" id="trainer">
         <p class="display-4 text-center">Trainer</p>
         <p class="container h1 tname">Trainer Name</p>
     </div>

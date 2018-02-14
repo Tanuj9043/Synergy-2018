@@ -29,10 +29,11 @@ $(document).ready(function(){
 });
 
 function setData() {
+    document.title = DATA.name;
     $('.uname').html(`${DATA.name}`);
-    $('.uemail').val()=DATA.email;
+    $('.uemail').val(DATA.email);
     $('.tname').html(`${DATA.tname}`);
-    $('.temail').val()=DATA.temail;
+    $('.temail').val(DATA.temail);
 }
 
 $(document).on('scroll', function () {
